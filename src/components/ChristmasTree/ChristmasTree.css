@@ -1,0 +1,12 @@
+.christmas-tree{
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    right: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .christmas-tree{
+        display: none;
+    }
+}

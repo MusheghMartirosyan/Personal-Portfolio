@@ -1,0 +1,30 @@
+nav{
+    background: rgba(0, 54, 42, 0.281);
+    width: max-content;
+    display: block;
+    padding: .5rem 1rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    z-index: 99;
+}
+
+nav a{
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    background: rgba(0, 120, 104, 0.384);
+    color: rgba(0, 0, 0, 0.527)!important;
+}
+
+.active{
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 157, 118, 0.594);
+}
