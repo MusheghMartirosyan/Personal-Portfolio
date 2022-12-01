@@ -60,6 +60,10 @@
     height: 9rem;
 }
 
+.contact-form button{
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 600px) {
     #contact{
         padding-top: 0;
@@ -73,5 +77,8 @@
     .contact-form{
         margin: auto;
         width: 100%;
+    }
+    .contact-form input, .contact-form textarea{
+        margin-bottom: 1.5rem;
     }
 }

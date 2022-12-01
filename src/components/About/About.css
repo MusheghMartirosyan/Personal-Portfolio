@@ -66,6 +66,18 @@
     color:rgba(0, 0, 0, .7);
 }
 
+@media screen and (max-width: 1024px) {
+    .about-me{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .about-container{
+        display: block;
+        padding-bottom: 8rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #about{
         padding-top: 0;
@@ -75,10 +87,13 @@
         display: block;
         padding-bottom: 8rem;
     }
-    .about-me{
-        display: block;
-        width: 75%;
-        margin: auto;
-        margin-bottom: 2rem;
+    .about-me img{
+        transform: none;
     }
+    .about-cards{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

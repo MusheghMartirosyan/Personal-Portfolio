@@ -1,6 +1,7 @@
 import './Contact.css'
 import { GoMail } from 'react-icons/go'
 import { RiWhatsappLine } from 'react-icons/ri'
+import { FaTelegramPlane } from 'react-icons/fa'
 
 const Contact = () => {
     return (
@@ -23,8 +24,10 @@ const Contact = () => {
                             <a href='https://api.whatsapp.com/send?phone+37455115145'>Send a message</a>
                         </article>
                         <article className='contact-card'>
-                            <h5>Projects</h5>
-                            <span>6 + Completed</span>
+                            <FaTelegramPlane />
+                            <h4>Telegram</h4>
+                            <h5>6126478523786</h5>
+                            <a href='https://telegram.org'>Send a message</a>
                         </article>
                     </div>
                         <form className='contact-form'>
