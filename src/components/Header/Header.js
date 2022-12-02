@@ -12,7 +12,7 @@ const Header = () => {
                 <h1>Mushegh Martirosyan</h1>
                 <h5 style={{marginTop: '1rem'}} className='text-light'>Front-End Developer</h5>
                 <div>
-                    <a href='#' className='btn' download>Download CV test</a>
+                    <a href='#' className='btn' download>Download CV</a>
                     <a href='#' className='btn btn-primary'>Let's Talk</a>
                 </div>
                 <div className='me'>
