@@ -1,6 +1,8 @@
 import './Portfolio.css'
 import Image from '../../images/maxresdefault.jpg'
 import Flags from '../../images/Flags-App Screenshot.png'
+import OmniFood from '../../images/OmniFood Screenshot.png'
+
 const Portfolio = () => {
     return(
         <section id='portfolio'>
@@ -16,10 +18,10 @@ const Portfolio = () => {
                 </article>
                 <article className='portfolio-item'>
                     {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' target='_blank' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' target='_blank' href='#'>Live Demo</a>
+                    <img src={OmniFood} />
+                    <h3>OmniFood</h3>
+                    <a className='btn' target='_blank' href='https://github.com/MusheghMartirosyan/OmniFood'>GitHub Link</a>
+                    <a className='btn btn-primary' target='_blank' href='https://musheghmartirosyan.github.io/OmniFood/'>Live Demo</a>
                 </article>
                 <article className='portfolio-item'>
                     {/* <div className='portfolio-item-img'></div> */}

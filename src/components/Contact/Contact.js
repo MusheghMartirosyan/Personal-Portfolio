@@ -26,8 +26,8 @@ const Contact = () => {
                         <article className='contact-card'>
                             <FaTelegramPlane />
                             <h4>Telegram</h4>
-                            <h5>6126478523786</h5>
-                            <a href='https://telegram.org'>Send a message</a>
+                            <h5>@MusheghMartirosyan</h5>
+                            <a href='https://t.me/musheghmartirosyan'>Send a message</a>
                         </article>
                     </div>
                         <form className='contact-form'>
