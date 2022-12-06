@@ -9,11 +9,11 @@ const Nav = () => {
     const [navActive, setNavActive] = useState('#')
     return(
         <nav>
-            <NavLink to='/' className={({isActive}) => isActive ? 'active' : ''}><HiOutlineHome /></NavLink>
-            <NavLink to='/about' className={({isActive}) => isActive ? 'active' : ''}><BiUser /></NavLink>
-            <NavLink to='/experience' className={({isActive}) => isActive ? 'active' : ''}><BiBook /></NavLink>
-            <NavLink to='/portfolio' className={({isActive}) => isActive ? 'active' : ''}><BiHeart /></NavLink>
-            <NavLink to='/contact' className={({isActive}) => isActive ? 'active' : ''}><BiMessageSquareDetail /></NavLink>
+            <NavLink to='https://musheghmartirosyan.github.io/Portfolio/' className={({isActive}) => isActive ? 'active' : ''}><HiOutlineHome /></NavLink>
+            <NavLink to='https://musheghmartirosyan.github.io/Portfolio/about' className={({isActive}) => isActive ? 'active' : ''}><BiUser /></NavLink>
+            <NavLink to='https://musheghmartirosyan.github.io/Portfolio/experience' className={({isActive}) => isActive ? 'active' : ''}><BiBook /></NavLink>
+            <NavLink to='https://musheghmartirosyan.github.io/Portfolio/portfolio' className={({isActive}) => isActive ? 'active' : ''}><BiHeart /></NavLink>
+            <NavLink to='https://musheghmartirosyan.github.io/Portfolio/contact' className={({isActive}) => isActive ? 'active' : ''}><BiMessageSquareDetail /></NavLink>
         </nav>
     )
 }
