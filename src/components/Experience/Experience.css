@@ -1,7 +1,7 @@
 .experience-container h3{
     text-align: center;
     padding-top: 1.8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .experience-content{
@@ -21,7 +21,7 @@
 }
 
 .experience-details{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 600px) {

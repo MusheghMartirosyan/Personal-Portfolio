@@ -3,8 +3,10 @@ import AboutImage from '../../images/Mario.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {GiCheckMark} from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 
 const About = () => {
+
     return (
         <section id='about'>
             <h5>Get To Know</h5>
@@ -33,8 +35,11 @@ const About = () => {
                             <span>6 + Completed</span>
                         </article>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eis dolorem maiores nihil ducimus arem ullam repreenderitquidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.</p>
-                    <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+                    <p>I'm Front-end Developer with 1 year of experience. Web developer adept at building responsive applications with
+                        great UI&UX parts. Passionate about learning new technologies, bringing ideas to life, and working with
+                        dedicated teams to build efficient and robust applications suited to the user's needs.
+                        Electricty is always on. All other information you can see in my portfolio.</p>
+                    <Link to='/contact' className='btn btn-primary'>Let's Talk</Link>
                 </div>
             </div>
         </section>

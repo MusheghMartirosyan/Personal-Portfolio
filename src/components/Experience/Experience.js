@@ -5,6 +5,7 @@ import {FaBootstrap} from 'react-icons/fa'
 import {SiRedux} from 'react-icons/si'
 import {BiGitBranch} from 'react-icons/bi'
 import {BsGithub} from 'react-icons/bs'
+import {ImNpm } from 'react-icons/im'
 
 const Experience = () => {
     return(
@@ -46,6 +47,10 @@ const Experience = () => {
                         <div className='experience-details'>
                             <BsGithub />
                             <h4>GitHub</h4>
+                        </div>
+                        <div className='experience-details'>
+                            <ImNpm />
+                            <h4>Npm</h4>
                         </div>
                     </div>
                 </div>

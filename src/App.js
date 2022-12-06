@@ -12,12 +12,12 @@ function App() {
   return (
     <> 
     <Routes>
-      <Route path='https://musheghmartirosyan.github.io/Portfolio/' element={<HomeWrapper />}>
+      <Route path='/' element={<HomeWrapper />}>
         <Route index element={<Header />}/>
-        <Route path='https://musheghmartirosyan.github.io/Portfolio/about' element={<About />} />
-        <Route path='https://musheghmartirosyan.github.io/Portfolio/experience' element={<Experience />} />
-        <Route path='https://musheghmartirosyan.github.io/Portfolio/portfolio' element={<Portfolio/>}/>
-        <Route path='https://musheghmartirosyan.github.io/Portfoliocontact' element={<Contact />} />
+        <Route path='about' element={<About />} />
+        <Route path='experience' element={<Experience />} />
+        <Route path='portfolio' element={<Portfolio/>}/>
+        <Route path='contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
       </Route>
     </Routes>

@@ -10,53 +10,16 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
             <div className='container portfolio-container'>
                 <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
                     <img src={Flags} />
                     <h3>Flags-App</h3>
                     <a className='btn' target='_blank' href='https://github.com/MusheghMartirosyan/Flags-App'>GitHub Link</a>
                     <a className='btn btn-primary' target='_blank' href='https://musheghmartirosyan.github.io/Flags-App/'>Live Demo</a>
                 </article>
                 <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
                     <img src={OmniFood} />
                     <h3>OmniFood</h3>
                     <a className='btn' target='_blank' href='https://github.com/MusheghMartirosyan/OmniFood'>GitHub Link</a>
                     <a className='btn btn-primary' target='_blank' href='https://musheghmartirosyan.github.io/OmniFood/'>Live Demo</a>
-                </article>
-                <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' href='#'>Live Demo</a>
-                </article>
-                <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' href='#'>Live Demo</a>
-                </article>
-                <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' href='#'>Live Demo</a>
-                </article>
-                <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' href='#'>Live Demo</a>
-                </article>
-                <article className='portfolio-item'>
-                    {/* <div className='portfolio-item-img'></div> */}
-                    <img src={Image} />
-                    <h3>Title</h3>
-                    <a className='btn' href='#'>GitHub Link</a>
-                    <a className='btn btn-primary' href='#'>Live Demo</a>
                 </article>
             </div>
         </section>
