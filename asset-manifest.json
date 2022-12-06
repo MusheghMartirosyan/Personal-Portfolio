@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.125de982.css",
-    "main.js": "/Portfolio/static/js/main.fb8fa7cc.js",
+    "main.css": "/Portfolio/static/css/main.46401d45.css",
+    "main.js": "/Portfolio/static/js/main.a06c14a9.js",
     "static/media/OmniFood Screenshot.png": "/Portfolio/static/media/OmniFood Screenshot.d9704e5c3a6e7fc823eb.png",
     "static/media/Mario.png": "/Portfolio/static/media/Mario.91e0e853c1334a4d4eff.png",
     "static/media/Flags-App Screenshot.png": "/Portfolio/static/media/Flags-App Screenshot.9aafb40741b4a5da281d.png",
     "static/media/Error404.png": "/Portfolio/static/media/Error404.b4b63205e49035388986.png",
     "static/media/maxresdefault.jpg": "/Portfolio/static/media/maxresdefault.cae69ef0ac7f6a8adabb.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.125de982.css.map": "/Portfolio/static/css/main.125de982.css.map",
-    "main.fb8fa7cc.js.map": "/Portfolio/static/js/main.fb8fa7cc.js.map"
+    "main.46401d45.css.map": "/Portfolio/static/css/main.46401d45.css.map",
+    "main.a06c14a9.js.map": "/Portfolio/static/js/main.a06c14a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.125de982.css",
-    "static/js/main.fb8fa7cc.js"
+    "static/css/main.46401d45.css",
+    "static/js/main.a06c14a9.js"
   ]
 }
