@@ -1,5 +1,5 @@
 nav{
-    background: rgba(0, 54, 42, 0.281);
+    background: rgb(76, 154, 150);
     width: max-content;
     display: block;
     padding: .5rem 1rem;
@@ -9,6 +9,7 @@ nav{
     bottom: 2rem;
     display: flex;
     gap: 1rem;
+    border: 2px solid var(--color-primary);
     border-radius: 3rem;
     z-index: 99;
 }
@@ -19,12 +20,9 @@ nav a{
     display: flex;
     font-size: 1.5rem;
 }
-nav a:hover{
+nav a:hover, .active{
     background: rgba(0, 120, 104, 0.384);
     color: rgba(0, 0, 0, 0.527)!important;
-}
-
-.active{
     border: 1px solid rgba(0, 0, 0, 0.281);
-    background-color: rgba(0, 157, 118, 0.594);
+
 }

@@ -1,5 +1,5 @@
 import './About.css'
-import AboutImage from '../../images/Mario.png'
+import AboutImage from '../../images/IMG_2227.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {GiCheckMark} from 'react-icons/gi'

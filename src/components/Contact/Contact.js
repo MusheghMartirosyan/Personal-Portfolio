@@ -2,8 +2,19 @@ import './Contact.css'
 import { GoMail } from 'react-icons/go'
 import { RiWhatsappLine } from 'react-icons/ri'
 import { FaTelegramPlane } from 'react-icons/fa'
+import emailjs from 'emailjs-com'
+import { useRef } from 'react'
 
 const Contact = () => {
+    const form = useRef(null)
+
+    const sendMessage = (e) => {
+        e.preventDefault()
+        
+        emailjs.sendForm('service_7cpcgzb', 'template_a2w1bd7', form.current, 'X19mtNj255M5pMj18');
+        form.current.reset()
+    }
+
     return (
         <section id='contact'>
             <h5>Get In Touch</h5>
@@ -30,10 +41,10 @@ const Contact = () => {
                             <a href='https://t.me/musheghmartirosyan'>Send a message</a>
                         </article>
                     </div>
-                        <form className='contact-form'>
-                            <input type='text' placeholder='Your Name' />
-                            <input type='email' placeholder='Your Email' />
-                            <textarea placeholder='Your Message' />
+                        <form ref={form} onSubmit={sendMessage} className='contact-form'>
+                            <input type='text' name='name' placeholder='Your Name' />
+                            <input type='email' name='email' placeholder='Your Email' />
+                            <textarea name='message' placeholder='Your Message' />
                             <button className='btn btn-primary'>Send Message</button>
                         </form>
                 </div>

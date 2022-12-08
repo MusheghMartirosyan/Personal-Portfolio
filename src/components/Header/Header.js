@@ -1,5 +1,6 @@
 import './Header.css'
-import Mario from '../../images/Mario.png'
+import CV from '../../CV/Mushegh_Martirosyan_ReactJS_Developer.pdf'
+import ME from '../../images/My project.png'
 import { BsArrowRight } from 'react-icons/bs'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
@@ -14,11 +15,11 @@ const Header = () => {
                 <h1>Mushegh Martirosyan</h1>
                 <h5 style={{marginTop: '1rem'}} className='text-light'>Front-End Developer</h5>
                 <div>
-                    <a href='./CV/Mushegh_Martirosyan_ReactJS_Developer.pdf' className='btn' download>Download CV</a>
+                    <a href={CV} className='btn' download>Download CV</a>
                     <Link to='/contact' className='btn btn-primary'>Let's Talk</Link>
                 </div>
                 <div className='me'>
-                    <img src={Mario} />
+                    <img src={ME} />
                 </div>
                 <span className='scroll-footer'>
                     Scroll to Footer <BsArrowRight />
